@@ -5,6 +5,10 @@
 	<groupId>com.southbridge.estructure</groupId>
 	<artifactId>southbrigde-base-estructure</artifactId>
 	<version>1.0-SNAPSHOT</version>
+	<properties>
+  		<sonar.organization>oscartest1</sonar.organization>
+  		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+	</properties>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
@@ -15,6 +19,11 @@
 					<source>1.8</source>
 					<target>1.8</target>
 				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.19.1</version>
 			</plugin>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
