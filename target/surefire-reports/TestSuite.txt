@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 2, Time elapsed: 3.758 sec <<< FAILURE! - in TestSuite
+beforeMethodMethod(test.java.carritocompras.CC_Test)  Time elapsed: 3.426 sec  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 112.0.5615.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'OSCARPEREYRA', ip: '192.168.0.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0027ACD3+2075859]
+	Ordinal0 [0x0020EE61+1633889]
+	Ordinal0 [0x0010B7BD+571325]
+	Ordinal0 [0x0012DFCD+712653]
+	Ordinal0 [0x00129266+692838]
+	Ordinal0 [0x00126BE9+682985]
+	Ordinal0 [0x0015DBD3+908243]
+	Ordinal0 [0x0015D6AA+906922]
+	Ordinal0 [0x00157136+880950]
+	Ordinal0 [0x0012FEFD+720637]
+	Ordinal0 [0x00130F3F+724799]
+	GetHandleVerifier [0x0052EED2+2769538]
+	GetHandleVerifier [0x00520D95+2711877]
+	GetHandleVerifier [0x0030A03A+521194]
+	GetHandleVerifier [0x00308DA0+516432]
+	Ordinal0 [0x0021682C+1665068]
+	Ordinal0 [0x0021B128+1683752]
+	Ordinal0 [0x0021B215+1683989]
+	Ordinal0 [0x00226484+1729668]
+	BaseThreadInitThunk [0x75D57D49+25]
+	RtlInitializeExceptionChain [0x7759B74B+107]
+	RtlClearBits [0x7759B6CF+191]
+	(No symbol) [0x00000000]
+
+

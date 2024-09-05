@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="3.758" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.boot.library.path" value="C:\Users\Opere\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Opere\eclipse-workspace\Proyecto_Base"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Opere\eclipse-workspace\Proyecto_Base"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Opere\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\Opere\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf16254156664726270302.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Opere\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/Opere/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_19.0.2.v20230129-1123/jre/bin/server;C:/Users/Opere/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_19.0.2.v20230129-1123/jre/bin;C:\Program Files\Python311\Scripts\;C:\Program Files\Python311\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Users\Opere\AppData\Roaming\Python\Python311\Scripts;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-19\bin;C:\Program Files\apache-maven-3.9.1\bin;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\Opere\AppData\Local\Microsoft\WindowsApps;;C:\Users\Opere\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Opere\AppData\Roaming\npm;C:\Users\Opere\eclipse\java-2023-033\eclipse;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Opere"/>
+    <property name="user.timezone" value="America/Santiago"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="Opereyra"/>
+    <property name="java.class.path" value="C:\Users\Opere\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.8.701.20230209-1606\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always test"/>
+    <property name="java.home" value="C:\Users\Opere\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.6.v20230204-1729\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="maven.home" value="C:\Users\Opere\eclipse-workspace\Proyecto_Base\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="m2e.build.project.data.socket.port" value="57480"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="beforeMethodMethod" classname="test.java.carritocompras.CC_Test" time="3.426">
+    <failure message="session not created: This version of ChromeDriver only supports Chrome version 107&#10;Current browser version is 112.0.5615.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;OSCARPEREYRA&apos;, ip: &apos;192.168.0.14&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0027ACD3+2075859]&#10;	Ordinal0 [0x0020EE61+1633889]&#10;	Ordinal0 [0x0010B7BD+571325]&#10;	Ordinal0 [0x0012DFCD+712653]&#10;	Ordinal0 [0x00129266+692838]&#10;	Ordinal0 [0x00126BE9+682985]&#10;	Ordinal0 [0x0015DBD3+908243]&#10;	Ordinal0 [0x0015D6AA+906922]&#10;	Ordinal0 [0x00157136+880950]&#10;	Ordinal0 [0x0012FEFD+720637]&#10;	Ordinal0 [0x00130F3F+724799]&#10;	GetHandleVerifier [0x0052EED2+2769538]&#10;	GetHandleVerifier [0x00520D95+2711877]&#10;	GetHandleVerifier [0x0030A03A+521194]&#10;	GetHandleVerifier [0x00308DA0+516432]&#10;	Ordinal0 [0x0021682C+1665068]&#10;	Ordinal0 [0x0021B128+1683752]&#10;	Ordinal0 [0x0021B215+1683989]&#10;	Ordinal0 [0x00226484+1729668]&#10;	BaseThreadInitThunk [0x75D57D49+25]&#10;	RtlInitializeExceptionChain [0x7759B74B+107]&#10;	RtlClearBits [0x7759B6CF+191]&#10;	(No symbol) [0x00000000]&#10;" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created: This version of ChromeDriver only supports Chrome version 107
+Current browser version is 112.0.5615.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'OSCARPEREYRA', ip: '192.168.0.14', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.6'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0027ACD3+2075859]
+	Ordinal0 [0x0020EE61+1633889]
+	Ordinal0 [0x0010B7BD+571325]
+	Ordinal0 [0x0012DFCD+712653]
+	Ordinal0 [0x00129266+692838]
+	Ordinal0 [0x00126BE9+682985]
+	Ordinal0 [0x0015DBD3+908243]
+	Ordinal0 [0x0015D6AA+906922]
+	Ordinal0 [0x00157136+880950]
+	Ordinal0 [0x0012FEFD+720637]
+	Ordinal0 [0x00130F3F+724799]
+	GetHandleVerifier [0x0052EED2+2769538]
+	GetHandleVerifier [0x00520D95+2711877]
+	GetHandleVerifier [0x0030A03A+521194]
+	GetHandleVerifier [0x00308DA0+516432]
+	Ordinal0 [0x0021682C+1665068]
+	Ordinal0 [0x0021B128+1683752]
+	Ordinal0 [0x0021B215+1683989]
+	Ordinal0 [0x00226484+1729668]
+	BaseThreadInitThunk [0x75D57D49+25]
+	RtlInitializeExceptionChain [0x7759B74B+107]
+	RtlClearBits [0x7759B6CF+191]
+	(No symbol) [0x00000000]
+
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 22067
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+]]></system-err>
+  </testcase>
+  <testcase name="CC_QA_Automatizacion" classname="test.java.carritocompras.CC_Test" time="0">
+    <skipped message="session not created: This version of ChromeDriver only supports Chrome version 107&#10;Current browser version is 112.0.5615.138 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe&#10;Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;&#10;System info: host: &apos;OSCARPEREYRA&apos;, ip: &apos;192.168.0.14&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;&#10;Driver info: driver.version: ChromeDriver&#10;remote stacktrace: Backtrace:&#10;	Ordinal0 [0x0027ACD3+2075859]&#10;	Ordinal0 [0x0020EE61+1633889]&#10;	Ordinal0 [0x0010B7BD+571325]&#10;	Ordinal0 [0x0012DFCD+712653]&#10;	Ordinal0 [0x00129266+692838]&#10;	Ordinal0 [0x00126BE9+682985]&#10;	Ordinal0 [0x0015DBD3+908243]&#10;	Ordinal0 [0x0015D6AA+906922]&#10;	Ordinal0 [0x00157136+880950]&#10;	Ordinal0 [0x0012FEFD+720637]&#10;	Ordinal0 [0x00130F3F+724799]&#10;	GetHandleVerifier [0x0052EED2+2769538]&#10;	GetHandleVerifier [0x00520D95+2711877]&#10;	GetHandleVerifier [0x0030A03A+521194]&#10;	GetHandleVerifier [0x00308DA0+516432]&#10;	Ordinal0 [0x0021682C+1665068]&#10;	Ordinal0 [0x0021B128+1683752]&#10;	Ordinal0 [0x0021B215+1683989]&#10;	Ordinal0 [0x00226484+1729668]&#10;	BaseThreadInitThunk [0x75D57D49+25]&#10;	RtlInitializeExceptionChain [0x7759B74B+107]&#10;	RtlClearBits [0x7759B6CF+191]&#10;	(No symbol) [0x00000000]&#10;"/>
+  </testcase>
+  <testcase name="afterMethodMethod" classname="test.java.carritocompras.CC_Test" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>
